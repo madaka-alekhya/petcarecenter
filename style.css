@@ -1,0 +1,66 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+}
+
+/* Card Container */
+.cardbody {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+/* Individual Card */
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+}
+
+/* Card Title Styling */
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Jumbotron Styling */
+.jumbotron {
+    background-color: burlywood;
+}
+
+/* Mobile and Small Devices */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 15px;  /* Adjust card margins */
+    }
+    .cardbody {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* Tablet Devices */
+@media (min-width: 768px) and (max-width: 992px) {
+    .cardbody {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* Large Devices */
+@media (min-width: 992px) {
+    .cardbody {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+
